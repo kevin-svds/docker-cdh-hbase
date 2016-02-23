@@ -17,7 +17,8 @@ RUN bash install-jdk7.sh
 #=======================
 # Install Hadoop
 #=======================
-ENV CDH_VER 5.2.0
+#ENV CDH_VER 5.2.0
+ENV CDH_VER 5.4.2
 
 # ref : http://www.cloudera.com/content/cloudera-content/cloudera-docs/CDH5/latest/CDH5-Quick-Start/cdh5qs_yarn_pseudo.html
 RUN curl http://archive.cloudera.com/cdh5/redhat/6/x86_64/cdh/cloudera-cdh5.repo -o /etc/yum.repos.d/cloudera-cdh5.repo
